@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>OK</title>
+<script type="text/javascript" src="AWTimer.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+	(function(){
+		AWTimer.init({
+			expireMsg : 'Czas min\u0105\u0142',
+			soundFile : "ding.wav",
+			container : document.getElementsByClassName('Timer'),
+			title : 'AW Timer'
+		});
+
+		return true;
+	})();
+};
+</script>
+</head>
+<body>
+
+<div class="Timer"></div>
+</body>
+</html>
